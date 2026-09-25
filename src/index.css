@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-handwriting {
+    font-family: 'Caveat', cursive, sans-serif;
+  }
+  .font-serif-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-marcellus {
+    font-family: 'Marcellus', Georgia, serif;
+  }
+  .font-typewriter {
+    font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+  }
+  .font-sans-clean {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Subtle vintage airmail border */
+.airmail-border {
+  background: repeating-linear-gradient(
+    135deg,
+    #c2410c,
+    #c2410c 14px,
+    #fff 14px,
+    #fff 22px,
+    #1d4ed8 22px,
+    #1d4ed8 36px,
+    #fff 36px,
+    #fff 44px
+  );
+}
+
+/* Stamp serrated border simulation */
+.stamp-edge {
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.12));
+  background-image: radial-gradient(circle at 0px 50%, transparent 4px, white 5px),
+                    radial-gradient(circle at 100% 50%, transparent 4px, white 5px);
+}

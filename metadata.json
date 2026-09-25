@@ -1,0 +1,6 @@
+{
+  "name": "Postcard AI",
+  "description": "Turn your memories into beautiful personalized digital postcards powered by multimodal AI.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
